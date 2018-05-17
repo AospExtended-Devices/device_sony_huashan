@@ -6,9 +6,7 @@ PRODUCT_PACKAGES += \
     Launcher3 \
     messaging \
     SoundRecorder \
-    SpeechRecorder \
-    Terminal \
-    WallpaperPicker
+    Terminal
 
 # AOSP properties
 PRODUCT_PROPERTY_OVERRIDES += \

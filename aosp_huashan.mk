@@ -21,6 +21,12 @@ BOARD_AOSP_BASED := true
 # Inherit device configurations
 $(call inherit-product, device/sony/huashan/device.mk)
 
+# Inherit common AEX stuff
+$(call inherit-product, vendor/aosp/common.mk)
+
+#Bootanimation Res
+TARGET_BOOT_ANIMATION_RES := 720
+
 # Device display
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
